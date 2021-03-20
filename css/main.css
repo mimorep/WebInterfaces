@@ -1,9 +1,23 @@
 
-body {margin:0;font-family:Arial}
+body {
+  margin:0;
+  font-family:Arial;
+  background-color: #ddd;
+}
+
+.contenido {
+  padding-top: 1px;
+  margin-top: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color:ghostwhite;
+}
 
 .topnav {
   overflow: hidden;
   background-color: #333;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .topnav a {
@@ -84,6 +98,10 @@ body {margin:0;font-family:Arial}
 }
 
 @media screen and (max-width: 600px) {
+  .contenido{
+    margin: 0;
+  }
+  .topnav {margin: 0;}
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;

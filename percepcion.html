@@ -1,86 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>El factor humano</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header>
-      <h1 style="text-align: center;">El factor humano</h1>
-    </header>
-    <div class="topnav" id="myTopnav">
-      <a href="index.html" class="active">Indice</a>
-      <div class="dropdown">
-        <button onclick="navTo('sensacion.html')" class="dropbtn">
-          Sensación
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="/sensacion.html#visual">Sistema visual</a>
-          <a href="/sensacion.html#vr">Realidad virtual</a>
-          <a href="/sensacion.html#auditivo">Sistema auditivo</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <button onclick="navTo('percepcion.html')" class="dropbtn">
-          Percepción
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="/percepcion.html#profundidad">Profundidad</a>
-          <a href="/percepcion.html#geones">Geones</a>
-          <a href="/percepcion.html#agrupacion">Agrupación</a>
-          <a href="/percepcion.html#affordances">Affordances</a>
-          <a href="/percepcion.html#iconos">Iconos</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <button onclick="navTo('memoria.html')" class="dropbtn">
-          Memoria
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="/memoria.html#sensorial">Sensorial</a>
-          <a href="/memoria.html#operativa">Operativa</a>
-          <a href="/memoria.html#largo">Largo plazo</a>
-        </div>
-      </div>
 
-      <a
-        href="javascript:void(0);"
-        style="font-size: 15px"
-        class="icon"
-        onclick="myFunction()"
-        >&#9776;</a
-      >
+<head>
+  <title>El factor humano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header>
+    <h1 style="text-align: center;">El factor humano</h1>
+  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Indice</a>
+    <div class="dropdown">
+      <button onclick="navTo('sensacion.html')" class="dropbtn">
+        Sensación
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="sensacion.html#visual">Sistema visual</a>
+        <a href="sensacion.html#vr">Realidad virtual</a>
+        <a href="sensacion.html#auditivo">Sistema auditivo</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="navTo('percepcion.html')" class="dropbtn">
+        Percepción
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="percepcion.html#profundidad">Profundidad</a>
+        <a href="percepcion.html#geones">Geones</a>
+        <a href="percepcion.html#agrupacion">Agrupación</a>
+        <a href="percepcion.html#affordances">Affordances</a>
+        <a href="percepcion.html#iconos">Iconos</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="navTo('memoria.html')" class="dropbtn">
+        Memoria
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="memoria.html#sensorial">Sensorial</a>
+        <a href="memoria.html#operativa">Operativa</a>
+        <a href="memoria.html#largo">Largo plazo</a>
+      </div>
     </div>
 
+    <a href="javascript:void(0);" style="font-size: 15px" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  
+  <div class="contenido">
     <div style="padding-left: 16px">
       <h2>Sensación</h2>
       <p>Resize the browser window to see how it works.</p>
       <p>Hover over the dropdown button to open the dropdown menu.</p>
 
       <div id="profundidad">
-      <h3>Profundidad</h3>
-      <p>Resize the browser window to see how it works.</p>
-      <p>Hover over the dropdown button to open the dropdown menu.</p>
+        <h3>Profundidad</h3>
+        <p>Resize the browser window to see how it works.</p>
+        <p>Hover over the dropdown button to open the dropdown menu.</p>
       </div>
-      
+
       <div id="geones">
-      <h3>Geones</h3>
-      <p>Resize the browser window to see how it works.</p>
-      <p>Hover over the dropdown button to open the dropdown menu.</p>
+        <h3>Geones</h3>
+        <p>Resize the browser window to see how it works.</p>
+        <p>Hover over the dropdown button to open the dropdown menu.</p>
       </div>
 
       <div id="agrupacion">
-      <h3>Agrupación</h3>
-      <p>Resize the browser window to see how it works.</p>
-      <p>Hover over the dropdown button to open the dropdown menu.</p>
+        <h3>Agrupación</h3>
+        <p>Resize the browser window to see how it works.</p>
+        <p>Hover over the dropdown button to open the dropdown menu.</p>
       </div>
 
       <div id="affordances">
@@ -95,26 +89,28 @@
         <p>Hover over the dropdown button to open the dropdown menu.</p>
       </div>
     </div>
+  </div>
 
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
       }
+    }
 
-      function navTo (url) {
-        //Si estamos en versión movil
-        if (!navigator.userAgent.includes('Android') &&
-              !navigator.userAgent.includes('iPhone') &&
-              !navigator.userAgent.includes('iPad')) {
-            //No hace nada
-            window.location.href = url;
-        }
+    function navTo(url) {
+      //Si estamos en versión movil
+      if (!navigator.userAgent.includes('Android') &&
+        !navigator.userAgent.includes('iPhone') &&
+        !navigator.userAgent.includes('iPad')) {
+        //No hace nada
+        window.location.href = url;
       }
-    </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>
