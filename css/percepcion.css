@@ -8,19 +8,14 @@ body li {
     margin-top: 7px;
 }
 
-.contenidoPercepcion {
+.contenido {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 1px;
-    margin-top: 16px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color:ghostwhite;
+    align-items: center;
 }
 
-.img{
+.img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,10 +28,14 @@ body li {
     height: auto;
 }
 
-
 /*Zona de querys*/
 @media screen and (max-width: 600px) {
     .contenidoPercepcion {
         margin: 0;
+    }
+
+    .responsiveImg {
+        width: 90%;
+        height: auto;
     }
 }
