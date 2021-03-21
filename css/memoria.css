@@ -1,0 +1,78 @@
+hr{
+    color: black; 
+    background-color: black; 
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+
+}
+
+.texto{
+    width: 48%;
+    margin-right: 16px;
+}
+
+#sensorial img,#operativa img,#largo img{
+    width: 48%;
+}
+#tipos_sensorial img{
+    width: 75%;
+}
+
+article{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+article img{
+    width: 90%;
+}
+
+#tipos_sensorial article{
+    width: 48%;
+}
+
+#tipos_operativa article{
+    width: 32%;
+}
+
+.tipoLargo{
+    width: 48%;
+    margin-right: 16px;
+}
+
+.tipoLargo img{
+    width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .texto{
+        width: 90%;
+    }
+    
+    #sensorial img,#operativa img,#largo img{
+        width: 90%;
+    }
+    
+    #tipos_sensorial article{
+        width: 90%;
+    }
+    
+    #tipos_operativa article{
+        width: 90%;
+    }
+    
+    .tipoLargo{
+        width: 90%;
+    }
+}
