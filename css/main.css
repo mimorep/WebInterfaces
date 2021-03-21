@@ -89,6 +89,23 @@ body {
   display: block;
 }
 
+p,li{
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h2{
+  margin-left: 2%;
+}
+h3{
+  margin-left: 3%;
+}
+h4{
+  margin-left: 4%;
+  font-style: italic;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
