@@ -11,12 +11,20 @@ body li {
 .contenidoPercepcion {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     padding-top: 1px;
     margin-top: 16px;
     margin-left: 40px;
     margin-right: 40px;
     background-color:ghostwhite;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .responsiveImg {
