@@ -1,0 +1,45 @@
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 400px;
+    height: 350px;
+}
+
+p,li{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2{
+    margin-left: 2%;
+}
+h3{
+    margin-left: 3%;
+}
+h4{
+    margin-left: 4%;
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+
+    img {
+        width: 70%;
+        height: 65%;
+    }
+
+}
