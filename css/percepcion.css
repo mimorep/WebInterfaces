@@ -10,12 +10,19 @@ body li {
 
 .contenidoPercepcion {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     padding-top: 1px;
     margin-top: 16px;
     margin-left: 40px;
     margin-right: 40px;
     background-color:ghostwhite;
+}
+
+.responsiveImg {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
 
 
