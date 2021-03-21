@@ -1,0 +1,27 @@
+/*CSS para la sección de la página percepcion*/
+
+body pre {
+    font-family: Arial;
+}
+
+body li {
+    margin-top: 7px;
+}
+
+.contenidoPercepcion {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1px;
+    margin-top: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:ghostwhite;
+}
+
+
+/*Zona de querys*/
+@media screen and (max-width: 600px) {
+    .contenidoPercepcion {
+        margin: 0;
+    }
+}
